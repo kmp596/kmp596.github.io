@@ -2,8 +2,21 @@ body {
   font-family: 'lucida sans unicode', lucida grande, sans-serif;
   font-weight: 300;
   background: url(betsybackground.jpg) repeat;
+	background-position: center center;
+	background-attachment: fixed;
 }
+
 #wrapper {
-  width: 960px;
-  margin: 20px auto;
+  background-color: white;
+	width: 960px;
+	margin: 20px auto;
+	padding: 20px;
+	opacity: 0.8;
+
+}
+
+img{
+	border: 1px solid grey;
+	border-radius: 9999999px;
+	box-shadow: 10px 10px 10px grey;
 }
