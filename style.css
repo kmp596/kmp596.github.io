@@ -7,12 +7,9 @@ body {
 }
 
 #wrapper {
-  background-color: white;
 	width: 960px;
 	margin: 20px auto;
 	padding: 20px;
-	opacity: 0.8;
-
 }
 
 img{
