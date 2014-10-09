@@ -29,6 +29,16 @@ h1 {
 	text-align: center;
 }
 
+h4 {
+	font-size: 20px;
+	color: purple;
+}
+
 p, li{
 	line-height: 26px;
+}
+
+table, th, td {
+   border: 1px solid black;
+   padding: 2px;
 }
