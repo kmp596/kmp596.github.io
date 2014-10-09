@@ -17,3 +17,11 @@ img{
 	border-radius: 9999999px;
 	box-shadow: 10px 10px 10px grey;
 }
+
+/* Make it so you can see the footer and center it */
+#footer{
+	color: white;
+	margin: 20px auto;
+	padding: 20px;
+	text-align: center;
+}
