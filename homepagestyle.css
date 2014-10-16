@@ -1,7 +1,7 @@
 body {
   font-family: 'Cabin', sans-serif;
   font-weight: 300;
-  background: url(wood.jpg)no-repeat;
+  background: url(wood.jpg)repeat;
   background-size: 1430px;
 	background-position: center center;
 	background-attachment: fixed;
