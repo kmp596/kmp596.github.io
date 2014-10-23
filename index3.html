@@ -14,39 +14,42 @@
 </head>
 <body>
 
-<form role="form">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputPassword1">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-  </div>
-  <div class="form-group">
-    <label for="exampleInputFile">File input</label>
-    <input type="file" id="exampleInputFile">
-    <p class="help-block">Example block-level help text here.</p>
+  <div class="container">
+    <h1>The Worst Restaurant Ever</h1>
+    <form action="http://learn.golearntocode.com/forms" method="post">
+
+      <!-- Text -->
+      <div class="form-group">
+        <label for="name">What's your name?</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name here">
+      </div>
+
+      <!-- Text -->
+      <div class="form-group">
+        <label for="email">What is your email address?</label>
+        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address">
+      </div>
+
+      <!-- Textarea -->
+      <div class="form-group">
+        <label for="special">What was your favorite event?</label>
+        <textarea class="form-control" name="special" rows="10" placeholder="Describe your favorite event and include key highlights"></textarea>
+      </div>
+
+      <!-- Select -->
+      <div class="form-group">
+        <label for="extras">Would you be willing to answer additional questions about your experiences?</label>
+        <select class="form-control" id="extras" name="extras">
+          <option>Yes</option>
+          <option>No</option>
+        </select>
+      </div>
+
+      <h3><a href="mailto:kristenmpals@gmailcom" type="submit" class="btn btn-info btn-block">Submit</a></h3>
   </div>
 
-  <h3><a href="mailto:kristenmpals@gmailcom" type="submit" class="btn btn-info btn-block">Sbmit</a></h3>
-  <!--<button <a href="mailto:kristenmpals@gmail.com"> type="submit" class="btn btn-default">Submit</button>-->
-</form>
-
-<style>
-    .header {
-        color:#36A0FF;
-        font-size:27px;
-        padding:10px;
-    }
-    .bigicon {
-        font-size:35px;
-        color:#36A0FF;
-    }
-</style>
 	</div>
   </div>
-	
 	</div>
   </div>
 </body>
