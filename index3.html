@@ -18,7 +18,7 @@
     <h1>Tell Us About Your Favorite Kellogg Memories </h1>
     <form action="mailto:kristenmpals@gmail.com?subject=Feedback on Kellogg Event" 
           method="POST" 
-          enctype="text/plain"
+          enctype="multipart/form-data"
           name="EmailThisForm">
 
       <!-- Text -->
@@ -39,6 +39,11 @@
         <textarea class="form-control" name="special" rows="10" placeholder="Describe your favorite event and include key highlights"></textarea>
       </div>
 
+      <div class="form-group"
+        <label for="File">What pictures can you share with us?</label>
+        <input type="file" name="files">
+      </div>
+
       <!-- Select -->
       <div class="form-group">
         <label for="extras">Would you be willing to answer additional questions about your experiences?</label>
@@ -51,6 +56,7 @@
 
       <!--Button for submission -->
     <button type="submit" 
+            value="Send"
             class="btn btn-success">Submit
     </button>
 
