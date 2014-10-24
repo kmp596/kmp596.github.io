@@ -7,17 +7,20 @@ body {
 	background-attachment: fixed;
 }
 
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
 #wrapper {
 	width: 1060px;
 	margin: 20px auto;
 	padding: 20px;
 }
 
-img{
-	border: 1px solid grey;
-	border-radius: 9999999px;
-	box-shadow: 10px 10px 10px grey;
-}
+
 
 /* Make it so you can see the footer and center it */
 #footer{
@@ -31,11 +34,15 @@ h1{
 	color:white;
 }
 
+h1 small{
+	color:white;
+}
+
 p{
 	color:white;
 }
 
-h2{
+h3{
 	color:white;
 }
 
