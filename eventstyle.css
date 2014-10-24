@@ -1,0 +1,52 @@
+body {
+  font-family: 'lucida sans unicode', lucida grande, sans-serif;
+  font-weight: 300;
+  background: url(wood.jpg);
+  background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+}
+
+#wrapper {
+	width: 1060px;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+img{
+	border: 1px solid grey;
+	border-radius: 9999999px;
+	box-shadow: 10px 10px 10px grey;
+}
+
+/* Make it so you can see the footer and center it */
+#footer{
+	color: white;
+	margin: 20px auto;
+	padding: 20px;
+	text-align: center;
+}
+
+h1{
+	color:white;
+}
+
+p{
+	color:white;
+}
+
+h2{
+	color:white;
+}
+
+h4{
+	color:white;
+}
+
+li{
+	color:white;
+}
+
+form{
+	color: white;
+}
